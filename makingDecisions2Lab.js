@@ -157,6 +157,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
 
+for (i4 = letters.length - 1; i4 >= 0; i4--) {
+  console.log(letters[i4]);
+}
+
+console.log('-----end problem 9-----');
 
 ////////// Advanced Problems //////////
 
