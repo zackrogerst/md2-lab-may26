@@ -251,20 +251,43 @@ console.log('-----end problem 10-----');
 //   }
 // }
 
-for (let i5 = 1; i5 <= 100; i5++) {
+
+
+
+// for (let i5 = 1; i5 <= 100; i5++) {
+//   switch (0) {
+//     case (i5 % 15):
+//       console.log("Dev Mountain");
+//       break;
+//     case (i5 % 3):
+//       console.log("Dev");
+//       break;
+//     case (i5 % 5):
+//       console.log("Mountain");
+//       break;
+//     default:
+//       console.log(i5);
+//   }
+// }
+
+
+
+for (let i = 1; i <= 100; i++) {
+  let n = i
   switch (0) {
-    case (i5 % 15):
-      console.log("Dev Mountain");
+    case (i % 15):
+      n = 'Dev Mountain'
       break;
-    case (i5 % 3):
-      console.log("Dev");
+    case (i % 3):
+      n = 'Dev'
       break;
-    case (i5 % 5):
-      console.log("Mountain");
+    case (i % 5):
+      n = 'Mountain'
       break;
     default:
-      console.log(i5);
+      console.log(i);
   }
+  console.log(n);
 }
 
 console.log('-----end problem 11-----');
