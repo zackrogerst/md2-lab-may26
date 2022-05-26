@@ -57,7 +57,14 @@ let evensArr = [];
 
 //Code Here
 
-
+for (let i2 = 0; i2 < nums.length; i2++) {
+  if (nums[i2] % 2 === 0) {
+    evensArr.push(nums[i2]);
+  } 
+}
+console.log(evensArr, "even array");
+console.log(nums,"numbers array");
+console.log('-----end problem 4-----');
 
 ////////// PROBLEM 5 //////////
 
