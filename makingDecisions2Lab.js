@@ -10,6 +10,8 @@ var arr = [10,20,30,40,50,60]
 
 let firstItem = arr[0];
 console.log(firstItem, "item 0 in array");
+console.log('-----end problem 1-----')
+
 
 ////////// PROBLEM 2 //////////
 /*
@@ -21,6 +23,7 @@ console.log(firstItem, "item 0 in array");
 let lastItemRemoved = arr.pop();
 console.log(lastItemRemoved, "last item removed");
 console.log(arr, "full array current");
+console.log('-----end problem 2-----')
 
 
 ////////// PROBLEM 3 //////////
@@ -35,7 +38,11 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
+for (let i = 0; i < 5; i++) {
+  console.log(family[i],)
+}
 
+console.log('-----end problem 3-----')
 
 ////////// PROBLEM 4 //////////
 
