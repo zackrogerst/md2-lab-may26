@@ -1,5 +1,5 @@
 // For problems 1-2 use the following lines of code:
-var arr = [10,20,30,40,50,60];
+var arr = [10, 20, 30, 40, 50, 60];
 
 ////////// PROBLEM 1 //////////
 /*
@@ -47,7 +47,7 @@ console.log('-----end problem 3-----');
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-var nums = [1,2,3,6,22,98,45,23,22,12];
+var nums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
 let evensArr = [];
 // Do not edit the code above.
 
@@ -60,10 +60,10 @@ let evensArr = [];
 for (let i2 = 0; i2 < nums.length; i2++) {
   if (nums[i2] % 2 === 0) {
     evensArr.push(nums[i2]);
-  } 
+  }
 }
 console.log(evensArr, "even array");
-console.log(nums,"numbers array");
+console.log(nums, "numbers array");
 console.log('-----end problem 4-----');
 
 ////////// PROBLEM 5 //////////
@@ -91,13 +91,13 @@ if (score >= 90) {
 }
 
 console.log('-----end problem 5-----');
- 
+
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,55,24,77,13,15];
+var myFavoriteNumbers = [4, 8, 12, 16, 55, 24, 77, 13, 15];
 // Do not edit the code above.
 
 /*
@@ -119,7 +119,7 @@ console.log('-----end problem 6-----');
 
 //Code Here
 
-if (myFavoriteNumbers.length < 7){
+if (myFavoriteNumbers.length < 7) {
   console.log('there are not enough elements in this array');
 } else if (myFavoriteNumbers.length > 7) {
   someNum = myFavoriteNumbers[6];
@@ -131,7 +131,7 @@ console.log('-----end problem 7-----');
 ////////// PROBLEM 8 //////////
 
 // Do not edit the code below.
-var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
+var listOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 // Do not edit the code above.
 
 // Use a for-loop to iterate through 'listOfNumbers', checking to see if each number is divisible by 3. If it is, console.log '{number} is divisible by 3.'
@@ -238,3 +238,33 @@ console.log('-----end problem 10-----');
 */
 
 //Code Here
+
+// for (let i5 = 1; i5 < 101; i5++) {
+//   if (i5 % 3 === 0 && i5 % 5 === 0) {
+//     console.log("Dev Mountain");
+//   } else if (i5 % 3 === 0) {
+//     console.log("Dev");
+//   } else if (i5 % 5 === 0) {
+//     console.log("Mountain");
+//   } else {
+//     console.log(i5);
+//   }
+// }
+
+for (let i5 = 1; i5 <= 100; i5++) {
+  switch (0) {
+    case (i5 % 15):
+      console.log("Dev Mountain");
+      break;
+    case (i5 % 3):
+      console.log("Dev");
+      break;
+    case (i5 % 5):
+      console.log("Mountain");
+      break;
+    default:
+      console.log(i5);
+  }
+}
+
+console.log('-----end problem 11-----');
