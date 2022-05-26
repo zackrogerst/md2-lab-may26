@@ -89,6 +89,8 @@ if (score >= 90) {
 } else {
   console.log('F');
 }
+
+console.log('-----end problem 5-----');
  
 ////////// Intermediate Problems //////////
 
@@ -104,6 +106,10 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 
+let someNum = myFavoriteNumbers[4];
+console.log(someNum);
+
+console.log('-----end problem 6-----');
 
 ////////// PROBLEM 7 //////////
 
