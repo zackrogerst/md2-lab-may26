@@ -138,6 +138,13 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 //Code Here
 
+for (let i3 = 0; i3 < listOfNumbers.length; i3++) {
+  if (listOfNumbers[i3] % 3 === 0) {
+    console.log(`${listOfNumbers[i3]} is divisible by 3`);
+  }
+}
+
+console.log('-----end problem 8-----');
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
