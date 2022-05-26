@@ -169,7 +169,7 @@ console.log('-----end problem 9-----');
 // Switch statements can be excellent alternatives to if blocks. Look up switch statements (I recommend W3 Schools) and try to implement one for the following.
 
 // Do not edit the code below.
-let letterGrade = 'B'
+let letterGrade = 't'
 // Do not edit the code above.
 
 /* Use a switch statement on 'letterGrade' and console.log the appropriate response.
@@ -184,7 +184,7 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
-let studentStatus = "The student is in class";
+let studentStatus = "The student is in class.";
 
 switch (letterGrade) {
   case 'A':
@@ -206,6 +206,9 @@ switch (letterGrade) {
   case 'F':
     letterGrade = 'F';
     studentStatus = "The student is failing.";
+    break;
+  default:
+    studentStatus = "The student is waiting for their grades.";
     break;
 }
 
