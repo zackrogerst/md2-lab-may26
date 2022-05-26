@@ -184,7 +184,34 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
+let studentStatus = "The student is in class";
 
+switch (letterGrade) {
+  case 'A':
+    letterGrade = 'A';
+    studentStatus = "The student is doing excellently.";
+    break;
+  case 'B':
+    letterGrade = 'B';
+    studentStatus = "The student is doing well.";
+    break;
+  case 'C':
+    letterGrade = 'C';
+    studentStatus = "The student is doing alright.";
+    break;
+  case 'D':
+    letterGrade = 'D';
+    studentStatus = "The student is not doing very well.";
+    break;
+  case 'F':
+    letterGrade = 'F';
+    studentStatus = "The student is failing.";
+    break;
+}
+
+console.log(studentStatus);
+
+console.log('-----end problem 10-----');
 
 ////////// PROBLEM 11 //////////
 /* The famous FizzBuzz, Devmountain style!
