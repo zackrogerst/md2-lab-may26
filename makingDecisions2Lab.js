@@ -1,5 +1,5 @@
 // For problems 1-2 use the following lines of code:
-var arr = [10,20,30,40,50,60]
+var arr = [10,20,30,40,50,60];
 
 ////////// PROBLEM 1 //////////
 /*
@@ -10,7 +10,7 @@ var arr = [10,20,30,40,50,60]
 
 let firstItem = arr[0];
 console.log(firstItem, "item 0 in array");
-console.log('-----end problem 1-----')
+console.log('-----end problem 1-----');
 
 
 ////////// PROBLEM 2 //////////
@@ -23,7 +23,7 @@ console.log('-----end problem 1-----')
 let lastItemRemoved = arr.pop();
 console.log(lastItemRemoved, "last item removed");
 console.log(arr, "full array current");
-console.log('-----end problem 2-----')
+console.log('-----end problem 2-----');
 
 
 ////////// PROBLEM 3 //////////
@@ -38,17 +38,17 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 
 //Code Here
 
-for (let i = 0; i < 5; i++) {
-  console.log(family[i],)
+for (let i = 0; i < family.length; i++) {
+  console.log(family[i],);
 }
 
-console.log('-----end problem 3-----')
+console.log('-----end problem 3-----');
 
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
 var nums = [1,2,3,6,22,98,45,23,22,12];
-let evensArr = []
+let evensArr = [];
 // Do not edit the code above.
 
 /*
@@ -62,7 +62,7 @@ let evensArr = []
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-var score = 74
+var score = 74;
 // Do not edit the code above.
 
 /*
