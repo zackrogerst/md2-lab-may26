@@ -97,7 +97,7 @@ console.log('-----end problem 5-----');
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,55,24,77,13,15];
 // Do not edit the code above.
 
 /*
@@ -105,9 +105,10 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 //Code Here
+console.log(myFavoriteNumbers);
 
 let someNum = myFavoriteNumbers[4];
-console.log(someNum);
+console.log(someNum, 'is the 5th value in the array');
 
 console.log('-----end problem 6-----');
 
@@ -118,6 +119,14 @@ console.log('-----end problem 6-----');
 
 //Code Here
 
+if (myFavoriteNumbers.length < 7){
+  console.log('there are not enough elements in this array');
+} else if (myFavoriteNumbers.length > 7) {
+  someNum = myFavoriteNumbers[6];
+  console.log(someNum, 'is the 7th value in the array');
+}
+
+console.log('-----end problem 7-----');
 
 ////////// PROBLEM 8 //////////
 
